@@ -18,7 +18,7 @@ jobs:
           
   docker:
     name: Build and push docker image
-    needs: [superlint]
+    needs: [super-lint]
     runs-on: ubuntu-latest
  
     steps:
